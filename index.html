@@ -5,142 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Soukayna Qarboua</title>
     <style>
-        :root {
-            --primary-color: #4CAF50;
-            --text-color: #333;
-            --background-color: #f5f5f5;
-            --card-background: white;
-        }
-        
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: var(--background-color);
-            margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
-        
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
+        h1, h2 {
+            color: #009ccf;
         }
-        
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-        
         .section {
-            background-color: var(--card-background);
-            margin-bottom: 2rem;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        
-        h2 {
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--primary-color);
-            padding-bottom: 0.5rem;
-            margin-top: 0;
-        }
-        
-        ul {
-            padding-left: 1.5rem;
-        }
-        
         a {
-            color: var(--primary-color);
+            color: #009ccf;
             text-decoration: none;
-            transition: color 0.3s ease;
         }
-        
         a:hover {
-            color: #45a049;
             text-decoration: underline;
         }
-        
-        footer {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 1rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .section {
-                padding: 1.5rem;
-            }
+        ul {
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Portfolio de Soukayna Qarboua</h1>
-    </header>
+    <h1>Portfolio de Soukayna Qarboua</h1>
     
-    <div class="container">
-        <section class="section">
-            <h2>🎓 Parcours Éducatif</h2>
-            <p><strong>Doctorat en Sciences et Technologies de l'Information</strong> - IMT Atlantique, Brest (2012-2016)</p>
-            <p><strong>Master en Code, Cryptographie et Sécurité Informatique</strong> - Université Mohammed V, Rabat (2009-2011)</p>
-            <p><strong>Licence en Sciences Mathématiques et Informatiques</strong> - Université Mohammed V, Rabat (2005-2009)</p>
-        </section>
+    <div class="section">
+        <h2>🎓 Parcours Éducatif</h2>
+        <p><strong>Doctorat en Sciences et Technologies de l'Information</strong> - IMT Atlantique, Brest (2012-2016)</p>
+        <p>Sujet : Approche quaternaire des fonctions cryptographiques, fonctions booléennes et conjecture de Tu-Deng</p>
+        <p>Mention : Très honorable avec félicitations du jury</p>
+        <p><a href="#">Plus de détails sur la thèse</a></p>
         
-        <section class="section">
-            <h2>📚 Expérience Professionnelle</h2>
-            <p><strong>Jeune chercheuse en informatique graphique</strong> - Université de Limoges, Laboratoire XLIM (2022–2023)</p>
-            <p><strong>Attachée temporaire d'enseignement et de recherche (ATER)</strong> - Université de la Polynésie Française (2017–2019)</p>
-            <p><strong>Chargée de cours</strong> - Écoles Militaires de Saint-Cyr Coëtquidan (2012–2014)</p>
-            <p><strong>Chargée de cours</strong> - VINCI, Rabat, Maroc (2011–2012)</p>
-        </section>
+        <p><strong>Master en Code, Cryptographie et Sécurité Informatique</strong> - Université Mohammed V, Rabat (2009-2011)</p>
+        <p>Mention : Bien</p>
+        <p><a href="#">Programme du master</a></p>
         
-        <section class="section">
-            <h2>🛠️ Compétences Techniques</h2>
-            <ul>
-                <li>Programmation : C, C++, C#, Python</li>
-                <li>Modélisation 3D : OpenGL, reconstruction volumique</li>
-                <li>Analyse de données : Python, R</li>
-                <li>Conception de fonctions cryptographiques et sécurité des systèmes</li>
-                <li>Enseignement universitaire et encadrement d'étudiants</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>📚 Publications et Contributions Scientifiques</h2>
-            <p><strong>Quaternary cryptographic bent functions and their binary projection</strong> - Cryptography and Communications, 2013</p>
-            <p><strong>New results about Tu-Deng's conjecture</strong> - IEEE International Symposium on Information Theory (ISIT), 2016</p>
-            <p><strong>Asymptotic complexity of a generalized Farey network</strong> - International Conference on Business Management, Innovation, and Sustainability, 2020</p>
-            <p><strong>Reconstruction d'os trabéculaires</strong> - Journées GTMG, Strasbourg, France</p>
-        </section>
-        
-        <section class="section">
-            <h2>👤 Contact</h2>
-            <p>Email : <a href="mailto:soukayna.qarboua@gmail.com">soukayna.qarboua@gmail.com</a></p>
-            <p>Téléphone : +1 (819) 743-9381</p>
-        </section>
+        <p><strong>Licence en Sciences Mathématiques et Informatiques</strong> - Université Mohammed V, Rabat (2005-2009)</p>
+        <p>Mention : Bien</p>
+        <p><a href="#">Détails de la licence</a></p>
     </div>
     
-    <footer>
-        &copy; 2025 Soukayna Qarboua - Tous droits réservés.
-    </footer>
+    <div class="section">
+        <h2>📚 Expérience Professionnelle</h2>
+        <p><strong>Chercheuse postdoctorale</strong> - Université de Limoges, Laboratoire XLIM, Campus Poitiers, France (2021–2023)</p>
+        <p>Projet : "Reconstruction d'os trabéculaires : utilisation de la topologie pour la correction automatique de modèles volumiques"</p>
+        <p><a href="#">Présentation du projet</a></p>
+        
+        <p><strong>Attachée temporaire d'enseignement et de recherche (ATER)</strong> - Université de la Polynésie Française, Laboratoire GAATI, Tahiti (2017–2019)</p>
+        <p><a href="#">Détails des enseignements</a></p>
+        
+        <p><strong>Chargée de cours</strong> - Écoles Militaires de Saint-Cyr Coëtquidan, Guer, France (2012–2014)</p>
+        <p><a href="#">Programme des cours</a></p>
+        
+        <p><strong>Chargée de cours</strong> - VINCI, Rabat, Maroc (2011–2012)</p>
+        <p><a href="#">Contenu des cours</a></p>
+    </div>
+    
+    <div class="section">
+        <h2>🔬 Axes de Recherche</h2>
+        <h3>1. Approche quaternaire des fonctions cryptographiques (2012-2016)</h3>
+        <p><strong>Publication principale</strong> : <a href="#">Quaternary cryptographic bent functions and their binary projection</a></p>
+        <p><strong>Résumé</strong> : Étude des liens entre les fonctions quaternaires courbes et des sous-classes de fonctions booléennes, avec applications en cryptographie.</p>
+        <p><a href="#">Détails de la recherche</a></p>
+        
+        <h3>2. Conjecture de Tu-Deng (2016)</h3>
+        <p><strong>Publication</strong> : <a href="#">New results about Tu-Deng's conjecture</a></p>
+        <p><strong>Résumé</strong> : Travaux sur l'énumération efficace des éléments de St,k et exploration de nouvelles approches pour résoudre la conjecture.</p>
+        <p><a href="#">Approfondissement sur la conjecture</a></p>
+        
+        <h3>3. Analyse des modèles des réseaux réels et aléatoires (2017-2019)</h3>
+        <p><strong>Publication</strong> : <a href="#">Asymptotic complexity of a generalized Farey network</a></p>
+        <p><strong>Résumé</strong> : Étude des propriétés asymptotiques des réseaux complexes, avec applications aux réseaux sociaux et biologiques.</p>
+        <p><a href="#">Exploration des réseaux complexes</a></p>
+    </div>
+    
+    <div class="section">
+        <h2>🛠️ Compétences Techniques</h2>
+        <ul>
+            <li>Programmation : C, C++, C#</li>
+            <li>Modélisation 3D : OpenGL, reconstruction volumique</li>
+            <li>Analyse de données : R</li>
+            <li>Conception de fonctions cryptographiques et sécurité des systèmes</li>
+            <li>Enseignement universitaire et encadrement d'étudiants</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>👤 Contact</h2>
+        <p>Email : <a href="mailto:soukayna.qarboua@gmail.com">soukayna.qarboua@gmail.com</a></p>
+        <p>Téléphone : +1 (819) 743-9381</p>
+        <p><a href="#">LinkedIn</a></p>
+        <p><a href="#">ResearchGate</a></p>
+    </div>
 </body>
 </html>
