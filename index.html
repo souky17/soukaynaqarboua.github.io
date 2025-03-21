@@ -14,7 +14,7 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #009ccf;
         }
         .section {
@@ -34,78 +34,145 @@
         ul {
             padding-left: 20px;
         }
+        /* Styles pour les tableaux */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
     <h1>Portfolio de Soukayna Qarboua</h1>
-    
+    <p>Docteure en mathématiques appliquées, spécialisée en cryptographie et sécurité de l'information.</p>
+
     <div class="section">
-        <h2>🎓 Parcours Éducatif</h2>
-        <p><strong>Doctorat en Sciences et Technologies de l'Information</strong> - IMT Atlantique, Brest (2012-2016)</p>
-        <p>Sujet : Approche quaternaire des fonctions cryptographiques, fonctions booléennes et conjecture de Tu-Deng</p>
-        <p>Mention : Très honorable avec félicitations du jury</p>
-        <p><a href="#">Plus de détails sur la thèse</a></p>
-        
-        <p><strong>Master en Code, Cryptographie et Sécurité Informatique</strong> - Université Mohammed V, Rabat (2009-2011)</p>
-        <p>Mention : Bien</p>
-        <p><a href="#">Programme du master</a></p>
-        
-        <p><strong>Licence en Sciences Mathématiques et Informatiques</strong> - Université Mohammed V, Rabat (2005-2009)</p>
-        <p>Mention : Bien</p>
-        <p><a href="#">Détails de la licence</a></p>
+        <h2>🎓 Formation Académique</h2>
+        <h3>Doctorat en Sciences et Technologies de l'Information (2012-2016)</h3>
+        <p>IMT Atlantique, Brest (France) & Université Mohammed V, Rabat (Maroc)</p>
+        <ul>
+            <li>Sujet de thèse: Approche quaternaire des fonctions cryptographiques, fonctions booléennes et conjecture de Tu-Deng</li>
+            <li>Directeurs de thèse: Caroline Fontaine, Saïd El Hajji, Patrice Parraud</li>
+            <li>Mention: Très honorable avec félicitations du jury</li>
+        </ul>
+        <a href="#">[Résumé de la thèse]</a> | <a href="#">[Publication principale]</a>
+
+        <h3>Master en Code, Cryptographie et Sécurité Informatique (2009-2011)</h3>
+        <p>Université Mohammed V, Rabat (Maroc)</p>
+        <ul>
+            <li>Mention: Bien</li>
+        </ul>
+        <a href="#">[Programme du Master]</a>
+
+        <h3>Licence en Sciences Mathématiques et Informatiques (2005-2009)</h3>
+        <p>Université Mohammed V, Rabat (Maroc)</p>
+        <ul>
+            <li>Mention: Bien</li>
+        </ul>
+        <a href="#">[Détails de la Licence]</a>
     </div>
-    
+
     <div class="section">
-        <h2>📚 Expérience Professionnelle</h2>
-        <p><strong>Chercheuse postdoctorale</strong> - Université de Limoges, Laboratoire XLIM, Campus Poitiers, France (2021–2023)</p>
-        <p>Projet : "Reconstruction d'os trabéculaires : utilisation de la topologie pour la correction automatique de modèles volumiques"</p>
-        <p><a href="#">Présentation du projet</a></p>
-        
-        <p><strong>Attachée temporaire d'enseignement et de recherche (ATER)</strong> - Université de la Polynésie Française, Laboratoire GAATI, Tahiti (2017–2019)</p>
-        <p><a href="#">Détails des enseignements</a></p>
-        
-        <p><strong>Chargée de cours</strong> - Écoles Militaires de Saint-Cyr Coëtquidan, Guer, France (2012–2014)</p>
-        <p><a href="#">Programme des cours</a></p>
-        
-        <p><strong>Chargée de cours</strong> - VINCI, Rabat, Maroc (2011–2012)</p>
-        <p><a href="#">Contenu des cours</a></p>
+        <h2>💼 Expérience Professionnelle</h2>
+        <h3>Chercheuse Postdoctorale (2021-2023)</h3>
+        <p>Université de Limoges, Laboratoire XLIM, Campus Poitiers (France)</p>
+        <ul>
+            <li>Projet: "Reconstruction d'os trabéculaires : utilisation de la topologie pour la correction automatique de modèles volumiques"</li>
+        </ul>
+        <a href="#">[Présentation du Projet]</a>
+
+        <h3>Attachée Temporaire d'Enseignement et de Recherche (ATER) (2017-2019)</h3>
+        <p>Université de la Polynésie Française, Laboratoire GAATI, Tahiti</p>
+        <ul>
+            <li>Enseignement en Licence (Analyse, Arithmétique, Statistiques)</li>
+        </ul>
+        <a href="#">[Détails des Enseignements]</a>
+
+        <h3>Chargée de Cours (2012-2014)</h3>
+        <p>Écoles Militaires de Saint-Cyr Coëtquidan, Guer (France)</p>
+        <ul>
+            <li>Enseignement d'algorithmique et de programmation C#</li>
+        </ul>
+        <a href="#">[Programme des Cours]</a>
+
+        <h3>Chargée de Cours (2011-2012)</h3>
+        <p>École Supérieure VINCI, Rabat (Maroc)</p>
+        <ul>
+            <li>Enseignement d'algèbre linéaire</li>
+        </ul>
+        <a href="#">[Contenu des Cours]</a>
     </div>
-    
+
     <div class="section">
-        <h2>🔬 Axes de Recherche</h2>
-        <h3>1. Approche quaternaire des fonctions cryptographiques (2012-2016)</h3>
-        <p><strong>Publication principale</strong> : <a href="#">Quaternary cryptographic bent functions and their binary projection</a></p>
-        <p><strong>Résumé</strong> : Étude des liens entre les fonctions quaternaires courbes et des sous-classes de fonctions booléennes, avec applications en cryptographie.</p>
-        <p><a href="#">Détails de la recherche</a></p>
-        
-        <h3>2. Conjecture de Tu-Deng (2016)</h3>
-        <p><strong>Publication</strong> : <a href="#">New results about Tu-Deng's conjecture</a></p>
-        <p><strong>Résumé</strong> : Travaux sur l'énumération efficace des éléments de St,k et exploration de nouvelles approches pour résoudre la conjecture.</p>
-        <p><a href="#">Approfondissement sur la conjecture</a></p>
-        
-        <h3>3. Analyse des modèles des réseaux réels et aléatoires (2017-2019)</h3>
-        <p><strong>Publication</strong> : <a href="#">Asymptotic complexity of a generalized Farey network</a></p>
-        <p><strong>Résumé</strong> : Étude des propriétés asymptotiques des réseaux complexes, avec applications aux réseaux sociaux et biologiques.</p>
-        <p><a href="#">Exploration des réseaux complexes</a></p>
+        <h2>📚 Axes de Recherche</h2>
+        <h3>Approche Quaternaire des Fonctions Cryptographiques (2012-2016)</h3>
+        <ul>
+            <li>Étude des liens entre les fonctions quaternaires et les fonctions booléennes.</li>
+            <li>Publication Principale: <a href="#">"Quaternary cryptographic bent functions and their binary projection"</a></li>
+        </ul>
+
+        <h3>Conjecture de Tu-Deng (2016)</h3>
+        <ul>
+            <li>Travaux sur l'énumération des éléments de St,k</li>
+            <li>Publication: <a href="#">"New results about Tu-Deng's conjecture"</a></li>
+        </ul>
+
+        <h3>Analyse des Modèles des Réseaux Réels et Aléatoires (2017-2019)</h3>
+        <ul>
+            <li>Étude des propriétés asymptotiques des réseaux complexes</li>
+            <li>Applications aux réseaux sociaux et biologiques</li>
+        </ul>
     </div>
-    
+
+     <div class="section">
+        <h2>👨‍🏫 Expérience d'Enseignement au Niveau Collégial (Cégep)</h2>
+
+        <p>Bien que mon expérience directe d'enseignement au niveau collégial (Cégep) soit limitée, mes compétences et mon expérience en enseignement universitaire peuvent être adaptées pour enseigner les mathématiques et l'informatique au niveau collégial.</p>
+        
+        <h3>Cours Potentiels au Cégep</h3>
+        <ul>
+            <li><strong>Mathématiques Discrètes:</strong> Introduction à la logique, la théorie des ensembles, les relations et les fonctions, les graphes et les arbres.</li>
+            <li><strong>Algèbre Linéaire:</strong> Vecteurs, matrices, systèmes d'équations linéaires, espaces vectoriels et transformations linéaires.</li>
+            <li><strong>Calcul Différentiel et Intégral:</strong> Limites, dérivées, intégrales et applications.</li>
+            <li><strong>Programmation Orientée Objet (C++ ou C#):</strong> Introduction aux concepts de la programmation orientée objet, classes, objets, héritage, polymorphisme.</li>
+        </ul>
+
+        <h3>Approche Pédagogique</h3>
+        <p>Je privilégierais une approche pédagogique axée sur la participation active des étudiants, avec des exemples concrets et des applications pratiques. Je serais également disponible pour offrir du soutien individuel et encourager le travail en équipe.</p>
+
+    </div>
+
     <div class="section">
         <h2>🛠️ Compétences Techniques</h2>
         <ul>
-            <li>Programmation : C, C++, C#</li>
-            <li>Modélisation 3D : OpenGL, reconstruction volumique</li>
-            <li>Analyse de données : R</li>
-            <li>Conception de fonctions cryptographiques et sécurité des systèmes</li>
-            <li>Enseignement universitaire et encadrement d'étudiants</li>
+            <li>Programmation: C, C++, C#</li>
+            <li>Modélisation 3D: OpenGL, reconstruction volumique</li>
+            <li>Analyse de données: R</li>
+            <li>Cryptographie: Conception de fonctions cryptographiques et sécurité des systèmes</li>
+            <li>Enseignement: Expérience universitaire et encadrement d'étudiants</li>
         </ul>
     </div>
-    
+
     <div class="section">
-        <h2>👤 Contact</h2>
-        <p>Email : <a href="mailto:soukayna.qarboua@gmail.com">soukayna.qarboua@gmail.com</a></p>
-        <p>Téléphone : +1 (819) 743-9381</p>
-        <p><a href="#">LinkedIn</a></p>
-        <p><a href="#">ResearchGate</a></p>
+        <h2>📜 Publications Sélectionnées</h2>
+        <ul>
+            <li><a href="#">Quaternary cryptographic bent functions and their binary projection (Cryptography and Communications, 2013)</a></li>
+            <li><a href="#">New results about Tu-Deng's conjecture (IEEE International Symposium on Information Theory, 2016)</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:soukayna.qarboua@gmail.com">soukayna.qarboua@gmail.com</a></p>
+        <p>Téléphone: +1 (819) 743-9381</p>
     </div>
 </body>
 </html>
